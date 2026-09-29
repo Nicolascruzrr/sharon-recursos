@@ -1521,17 +1521,19 @@ html.ua-chrome .hero-content .hero-sub {
 
 .recursos__head h2 {
   margin: 0;
+  max-width: 24ch;
   font-family: "Schoolbell", cursive;
-  font-size: clamp(2.6rem, 6vw, 3.6rem);
+  font-size: clamp(2rem, 4.2vw, 2.9rem);
   font-weight: 400;
-  line-height: 0.95;
+  line-height: 1.1;
   letter-spacing: 0.01em;
   color: #3e2f2b;
+  text-wrap: balance;
 }
 
 .recursos__head p {
-  margin: 0.7rem 0 0;
-  max-width: 38rem;
+  margin: 0.8rem 0 0;
+  max-width: 46rem;
   color: #5c514d;
   font-size: 1.05rem;
   line-height: 1.55;

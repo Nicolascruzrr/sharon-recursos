@@ -195,6 +195,9 @@ body.seb-page {
 
 .seb-hero__grid--solo {
   grid-template-columns: 1fr;
+}
+
+.seb-hero__grid--solo .seb-hero__left {
   max-width: 720px;
 }
 
@@ -616,6 +619,31 @@ body.seb-page .seb-prose article.seb-section--green .seb-achieve-list li {
   margin: 0;
   font-size: 0.9375rem;
   color: var(--muted);
+}
+
+.seb-hero__lede + .seb-hero__lede {
+  margin-top: -12px;
+}
+
+.seb-learn-item p strong {
+  display: block;
+  margin-bottom: 2px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.seb-about-lead strong {
+  font-family: "Lora", Georgia, serif;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+.seb-fit .seb-strip {
+  margin-top: 18px;
+}
+
+.seb-fit__btn {
+  margin-top: 14px;
 }
 
 /* —— Price card —— */
